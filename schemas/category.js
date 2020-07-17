@@ -1,10 +1,7 @@
-import { MdApps } from 'react-icons/md'
-
 export default {
   name: 'category',
   title: 'Category',
   type: 'document',
-  icon: MdApps,
   fields: [
     {
       name: 'title',
@@ -16,6 +13,5 @@ export default {
       title: 'Description',
       type: 'text'
     }
-  ],
-  liveEdit: true
+  ]
 }
