@@ -8,14 +8,16 @@ import {
 	FiCheck
 } from "react-icons/fi";
 
+import EditIcon from 'part:@sanity/base/edit-icon'
+import EyeIcon from 'part:@sanity/base/eye-icon'
+import SeoPreview from '../src/components/previews/seo/SeoPreviews'
 import IframePreview from "../src/components/previews/iframe/post";
 
 // Determine Current URL
 const remoteURL =
 	"https://webriq-gatsby-cms-starter-template-sanity-5358417547.gtsb.io";
 const localURL = "http://localhost:8000";
-const previewURL =
-	window.location.hostname === "localhost" ? localURL : remoteURL;
+const previewURL = "changeme";
 
 export default S.listItem()
 	.title("Blog posts")

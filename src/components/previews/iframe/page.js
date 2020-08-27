@@ -4,13 +4,13 @@ import PropTypes from 'prop-types'
 import styles from './IframePreview.css'
 
 const assembleProjectUrl = ({displayed, options}) => {
-	const {slug} = displayed
-	const {previewURL} = options
-	if (!slug || !previewURL) {
-	  console.warn('Missing slug or previewURL', {slug, previewURL})
-	  return ''
-	}
-	return `${previewURL}/${slug.current}`
+  const {slug} = displayed
+  const {previewURL, page} = options
+  if (!page || !previewURL) {
+    console.warn('Missing slug or previewURL', {slug, previewURL})
+    return ''
+  }
+  return `${previewURL}/${page}`
 }
 
 class IframePreview extends React.PureComponent {
