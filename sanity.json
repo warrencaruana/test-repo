@@ -1,7 +1,7 @@
 {
   "root": true,
   "api": {
-    "projectId": "tqrw4v7l",
+    "projectId": "8tpg1luj",
     "dataset": "production"
   },
   "project": {
@@ -14,7 +14,7 @@
       "title": "WebriQ Sandbox",
       "default": true,
       "api": {
-        "projectId": "tqrw4v7l",
+        "projectId": "8tpg1luj",
         "dataset": "production"
       }
     }
